@@ -2,7 +2,7 @@ package br.edu.ifnmg.tads.lp3;
 
 import java.util.Objects;
 
-public class Emails {
+public class Email {
     private int id;
     private String email;
 
@@ -36,7 +36,7 @@ public class Emails {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Emails other = (Emails) obj;
+        final Email other = (Email) obj;
         if (this.id != other.id) {
             return false;
         }

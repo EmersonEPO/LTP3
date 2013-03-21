@@ -2,13 +2,13 @@ package br.edu.ifnmg.tads.lp3;
 
 import java.util.Objects;
 
-public class Pessoas{
+public class Pessoa{
     
     private int id;
     private String nome;
  
     
-    public Pessoas(){
+    public Pessoa(){
         this.id=0;
         this.nome="vazio";
     }
@@ -50,7 +50,7 @@ public class Pessoas{
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Pessoas other = (Pessoas) obj;
+        final Pessoa other = (Pessoa) obj;
         if (this.id != other.id) {
             return false;
         }

@@ -2,7 +2,7 @@ package br.edu.ifnmg.tads.lp3;
 
 import java.util.Objects;
 
-public class Enderecos {
+public class Endereco {
     private int id;
     private String estado;
     private String cidade;
@@ -78,7 +78,7 @@ public class Enderecos {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Enderecos other = (Enderecos) obj;
+        final Endereco other = (Endereco) obj;
         if (this.id != other.id) {
             return false;
         }
