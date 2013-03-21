@@ -64,9 +64,4 @@ public class Pessoas{
     public String toString() {
         return "Pessoa{" + "id=" + id + ", nome=" + nome + '}';
     }
-    
-    
-    
-    
-  
 }
