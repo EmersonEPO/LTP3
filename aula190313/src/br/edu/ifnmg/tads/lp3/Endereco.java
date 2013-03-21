@@ -102,7 +102,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Enderecos{" + "id=" + id + ", estado=" + estado + ", cidade=" + cidade + ", cep=" + cep + ", bairro=" + bairro + ", rua=" + rua + '}';
+        return "Endereco{" + "id=" + id + ", estado=" + estado + ", cidade=" + cidade + ", cep=" + cep + ", bairro=" + bairro + ", rua=" + rua + '}';
     }
     
     
